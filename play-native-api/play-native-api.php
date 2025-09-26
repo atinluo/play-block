@@ -14,7 +14,7 @@ if ( ! class_exists( 'Play_Native_API' ) ) {
     class Play_Native_API {
 
         protected static $_instance = null;
-        private $namespace = 'play-native';
+        private $namespace = 'play';
 
         public static function instance() {
             if ( is_null( self::$_instance ) ) {
