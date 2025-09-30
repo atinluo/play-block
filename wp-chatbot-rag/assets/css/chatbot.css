@@ -1,0 +1,14 @@
+#wpcr-fab{
+	position:fixed;right:20px;bottom:20px;z-index:99999;background:#1f2937;color:#fff;border:none;border-radius:999px;padding:12px 18px;box-shadow:0 10px 20px rgba(0,0,0,.2);cursor:pointer;font-weight:600}
+#wpcr-fab:hover{background:#111827}
+#wpcr-panel{position:fixed;right:20px;bottom:80px;width:320px;max-width:90vw;height:480px;background:#ffffff;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,.2);display:none;flex-direction:column;overflow:hidden;z-index:99999}
+#wpcr-panel.open{display:flex}
+#wpcr-panel .wpcr-header{padding:12px 16px;background:#111827;color:#fff;font-weight:700}
+#wpcr-panel .wpcr-messages{flex:1;padding:12px;overflow:auto;background:#f9fafb}
+#wpcr-panel .wpcr-msg{margin:8px 0;padding:10px 12px;border-radius:12px;max-width:90%}
+#wpcr-panel .wpcr-msg.user{background:#d1fae5;color:#065f46;margin-left:auto}
+#wpcr-panel .wpcr-msg.bot{background:#e5e7eb;color:#111827;margin-right:auto}
+#wpcr-panel .wpcr-input{display:flex;padding:10px;border-top:1px solid #e5e7eb;gap:8px}
+#wpcr-panel .wpcr-input input{flex:1;padding:10px 12px;border:1px solid #d1d5db;border-radius:10px}
+#wpcr-panel .wpcr-input button{background:#111827;color:#fff;border:none;border-radius:10px;padding:10px 14px;cursor:pointer}
+#wpcr-panel .wpcr-input button:hover{background:#000}
