@@ -1,0 +1,51 @@
+/*
+Theme Name: School Management Theme
+Theme URI: https://example.com/school-management-theme
+Author: Your Name
+Author URI: https://example.com
+Description: A clean, compatible theme tailored for the School Management System plugin.
+Version: 0.1.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: school-management-theme
+Tags: education, school, clean, responsive
+*/
+
+/* Basic reset and plugin-friendly defaults */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif; line-height: 1.6; color: #111827; background: #ffffff; }
+img { max-width: 100%; height: auto; }
+
+/* Container */
+.container { width: min(1100px, 92%); margin-inline: auto; }
+
+/* Utility */
+.screen-reader-text { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.alignwide { max-width: 1200px; margin-inline: auto; }
+.alignfull { width: 100vw; margin-left: 50%; transform: translateX(-50%); }
+
+/* Plugin compatibility: keep SMS pages full width */
+.page-template-template-fullwidth .site-main { max-width: 1200px; width: 100%; }
+.sms-wrapper, .wlsm, .school-management, .wlsm-container { width: 100%; }
+
+/* Buttons */
+button, .button, input[type="submit"], .wp-block-button__link { background: #155e75; color: #fff; border: none; border-radius: 6px; padding: .6rem 1rem; cursor: pointer; text-decoration: none; }
+button:hover, .button:hover, input[type="submit"]:hover, .wp-block-button__link:hover { background: #0e7490; }
+
+/* Forms */
+input[type="text"], input[type="email"], input[type="password"], select, textarea { width: 100%; padding: .6rem .7rem; border: 1px solid #e5e7eb; border-radius: 6px; }
+label { display: inline-block; margin-bottom: .35rem; color: #374151; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .6rem .7rem; border-bottom: 1px solid #e5e7eb; text-align: left; }
+th { background: #f3f4f6; }
+
+/* Navigation */
+.nav { display: flex; gap: 1rem; padding: .5rem 0; }
+.nav a { color: #111827; text-decoration: none; }
+.nav a:hover { text-decoration: underline; }
