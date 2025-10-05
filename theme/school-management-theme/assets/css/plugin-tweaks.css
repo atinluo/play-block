@@ -1,0 +1,15 @@
+/* Minor tweaks to better integrate with the School Management System plugin UI */
+.is-sms-page .site-header, .is-sms-page .site-footer {
+  background: #f8fafc;
+}
+.is-sms-page .site-main {
+  max-width: 1200px;
+}
+/* Ensure plugin grids and forms stretch nicely */
+.is-sms-page .wlsm, .is-sms-page .school-management, .is-sms-page .wlsm-container {
+  width: 100%;
+}
+/* Avoid overly opinionated margins that conflict with plugin components */
+.is-sms-page .entry-content > * {
+  margin-block: 0.75rem;
+}
